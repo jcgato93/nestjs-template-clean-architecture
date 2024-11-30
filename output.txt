@@ -1,0 +1,38 @@
+D:\Repositories\Practice\clean-architecture
+├── nest-cli.json
+├── output.txt
+├── package-lock.json
+├── package.json
+├── README.md
+├── src
+|  ├── app.controller.spec.ts
+|  ├── app.controller.ts
+|  ├── app.module.ts
+|  ├── app.service.ts
+|  ├── application
+|  |  ├── interfaces
+|  |  |  └── authentication.service.interface.ts
+|  |  └── use-cases
+|  |     └── auth
+|  ├── domain
+|  ├── infrastructure
+|  |  ├── database
+|  |  ├── event-bus
+|  |  ├── external-services
+|  |  |  └── auth0
+|  |  └── shared
+|  |     ├── filters
+|  |     └── interceptors
+|  ├── main.ts
+|  └── presentacion
+|     ├── controllers
+|     |  └── auth.controller.ts
+|     ├── dto
+|     |  └── auth
+|     └── filters
+├── tsconfig.build.json
+└── tsconfig.json
+
+directory: 1779 file: 8085
+
+ignored: directory (114)
